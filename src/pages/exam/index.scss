@@ -1,0 +1,36 @@
+.page {
+  background-color: #eee;
+  min-height: 100vh;
+}
+
+.man {
+  position: relative;
+  width: 240px;
+  height: 478px;
+}
+
+.human-bg {
+  width: 480px;
+  height: 896px;
+  // position: absolute;
+}
+
+.point {
+  position: absolute;
+  top: 20px;
+}
+
+.left-hand {
+  &-1 {
+    left: 100px;
+    top: 10px;
+  }
+  &-2 {
+    left: 100px;
+    top: 100px;
+  }
+  &-3 {
+    left: 100px;
+    top: 170px;
+  }
+}

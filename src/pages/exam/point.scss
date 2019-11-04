@@ -1,0 +1,28 @@
+.box-outer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 72px;
+  height: 72px;
+  background-color: #c8c8c8;
+  border-radius: 50%;
+  opacity: .3;
+
+  &.active {
+    background-color: #febbbb;
+  }
+}
+
+.box-inner {
+  width: 80%;
+  height: 80%;
+  background-color: #fff;
+  border-radius: 50%;
+  opacity: .7;
+
+  &.active {
+    background-color: #eb5757;
+  }
+}
+
+

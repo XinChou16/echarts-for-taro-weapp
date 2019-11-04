@@ -1,0 +1,10 @@
+dist/
+coverage/
+.temp/
+.rn_temp/
+node_modules/
+.vscode/
+.DS_Store
+project.config.json
+src/config/index.ts
+.idea
